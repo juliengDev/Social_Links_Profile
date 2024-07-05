@@ -49,6 +49,15 @@ html {
   font-size: 62.5%;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  cursor: auto; /* or pointer if you want to keep the default hand cursor */
+}
+
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -112,6 +121,7 @@ body {
 }
 
 .container {
+  margin: 0 1.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
