@@ -125,7 +125,7 @@ body {
   gap: 2.4rem;
   max-width: 38.4rem;
   margin: 11.6rem 2.4rem 0;
-  padding: 2.4rem;
+  padding: 4rem;
   background-color: var(--color-darkgrey);
   border-radius: 1.2rem;
   text-align: center;
@@ -133,6 +133,7 @@ body {
 @media only screen and (max-width: 23.4375em) {
   .card {
     max-width: 32.7rem;
+    padding: 2.4rem;
   }
 }
 .card-avatar {
@@ -154,11 +155,25 @@ body {
   gap: 1.6rem;
 }
 .card-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   white-space: nowrap;
   list-style-type: none;
   padding: 1.2rem 11.5rem;
   border-radius: 8px;
   background-color: var(--color-grey);
+  transition: all 0.4s ease;
+}
+@media only screen and (max-width: 23.4375em) {
+  .card-social-link {
+    max-width: 27.9rem;
+  }
+}
+.card-social-link:hover {
+  cursor: url("../../assets/images/handcursor.png"), auto;
+  background-color: var(--color-neonGreen);
+  color: var(--color-grey);
 }
 
 .attribution {
