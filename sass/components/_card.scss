@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 2.8rem;
   max-width: $default-width;
   margin: 17.4rem 4rem 0;
   padding: 4rem;
@@ -31,7 +31,6 @@
   }
   &-social {
     max-width: 30.4rem;
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
