@@ -30,6 +30,7 @@
     }
   }
   &-social {
+    max-width: 30.4rem;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -40,12 +41,13 @@
       align-items: center;
       white-space: nowrap;
       list-style-type: none;
-      padding: 1.2rem 11.5rem;
+      padding: 1.4rem 11.5rem;
       border-radius: 8px;
       background-color: var(--color-grey);
       transition: all 0.4s ease;
       @include respond(mobile) {
         max-width: 27.9rem;
+        padding: 1.2rem 11.5rem;
       }
       &:hover {
         cursor: url("../../assets/images/handcursor.png"), auto;
