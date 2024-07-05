@@ -1,0 +1,6 @@
+.card {
+  max-width: $default-width;
+  @include respond(mobile) {
+    max-width: $mobile-width;
+  }
+}

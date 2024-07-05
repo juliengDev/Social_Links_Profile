@@ -1,6 +1,9 @@
 :root {
-  --color-yellow: #f4d04e;
-  --color-black: #111111;
+  --color-neonGreen : #C4F82A
+  --color-page: #1e1e1e;
+  --color-black: #141414;
+  --color-darkgrey: #1F1F1F
+  --color-grey: #333333
   --color-pure-white: #ffffff;
   --color-grey: #7f7f7f;
 }
@@ -19,7 +22,8 @@ body {
   position: relative;
   min-height: 100vh;
   margin: 0;
-  background-color: var(--color-yellow);
+  background-color: var(--color-page);
+  color: var(--color-pure-white);
 }
 html {
   box-sizing: border-box;
