@@ -135,7 +135,7 @@ body {
     max-width: 32.7rem;
     padding: 2.4rem;
     margin: 11.6rem 2.4rem 0;
-    gap: 2.4rem;
+    gap: 3rem;
   }
 }
 .card-avatar {
@@ -144,6 +144,7 @@ body {
   border-radius: 50%;
 }
 .card-presentation {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
