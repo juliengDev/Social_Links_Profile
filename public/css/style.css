@@ -141,7 +141,8 @@ body {
 }
 @media only screen and (max-width: 23.4375em) {
   .card {
-    max-width: 32.7rem;
+    /* max-width: 32.7rem; */
+    max-width: 90%;
     padding: 2.4rem;
     margin: 11.6rem 2.4rem 0;
     gap: 2.4rem;
